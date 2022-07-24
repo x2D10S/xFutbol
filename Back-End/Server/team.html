@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Team</title>
+    </head>
+    <body>
+        <h1>Team stats: </h1>
+        <form action="/teamtableupdate" method="post">
+            <label for="league_id">League_id</label>
+            <input type="number" name="league_id" id="league_id">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+            <label for="standings">Standings: </label>
+            <input type="number" name="standings" id="standings">
+            <label for="played">Played: </label>
+            <input type="number" name="played" id="played">
+            <label for="won">Won: </label>
+            <input type="number" name="won" id="won">
+            <label for="drawn">Drawn: </label>
+            <input type="number" name="drawn" id="drawn">
+            <label for="lost">Lost: </label>
+            <input type="number" name="lost" id="lost">
+            <label for="gf">GF: </label>
+            <input type="number" name="gf" id="gf">
+            <label for="ga">GA: </label>
+            <input type="number" name="ga" id="ga">
+            <label for="gd">GD: </label>
+            <input type="number" name="gd" id="gd">
+            <label for="points">Points: </label>
+            <input type="number" name="points" id="points">
+            <button type="submit">Create</button>
+        </form>
+    </body>
+</html>
