@@ -1,1 +1,1 @@
-"# xFutbol" 
+A website(unhosted because I couldn't find free hosting for SQL servers) that uses React for front-end, and NodeJs for back-end and has an SQL database integration. The website can perform CRUD operations, along with user-authentication(basic, cookie-based).
